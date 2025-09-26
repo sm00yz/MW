@@ -1,4 +1,4 @@
-#   Mental Well App)
+#   Mental Well App 🌿
 Your companion for mental wellness 🌿
 
 ```
@@ -9,7 +9,7 @@ Description of the app ...
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://MW.streamlit.app/)
 
 ## GitHub Codespaces
 
