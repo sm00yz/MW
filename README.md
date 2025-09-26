@@ -1,4 +1,6 @@
-# 📦 Streamlit App Starter Kit 
+#   Mental Well App)
+Your companion for mental wellness 🌿
+
 ```
 ⬆️ (Replace above with your app's name)
 ```
