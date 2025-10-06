@@ -1,35 +1,25 @@
 import streamlit as st
+
+# --- Configuration ---
 st.set_page_config(
-    page_title="Mental Wellness",
-    page_icon="👋",
-)
-st.title('🎈 Mental Well')
-
-st.write(' your dgital mental wellness companion 🌿')
-
-st.set_page_config(
-    page_title="Hello",
-    page_icon="👋",
+    page_title="Mental Wellness App",
+    page_icon="🧘‍♀️",
+    layout="wide"
 )
 
-st.write("# Welcome to Streamlit! 👋")
+# --- Main Page Content ---
+# This file serves as the default entry point and usually redirects
+# or provides a simple introduction before the sidebar navigation takes over.
 
-st.sidebar.success("Select a demo above.")
+st.title("Welcome to Your Mental Wellness Hub 🧠")
+st.markdown("""
+Welcome! Use the navigation in the sidebar on the left to explore different tools and resources.
 
-st.markdown(
-    """
-    Streamlit is an open-source app framework built specifically for
-    Machine Learning and Data Science projects.
-    **👈 Select a demo from the sidebar** to see some examples
-    of what Streamlit can do!
-    ### Want to learn more?
-    - Check out [streamlit.io](https://streamlit.io)
-    - Jump into our [documentation](https://docs.streamlit.io)
-    - Ask a question in our [community
-        forums](https://discuss.streamlit.io)
-    ### See more complex demos
-    - Use a neural net to [analyze the Udacity Self-driving Car Image
-        Dataset](https://github.com/streamlit/demo-self-driving)
-    - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
-"""
-)
+This main page can serve as a dashboard or a simple introduction to your application's purpose.
+""")
+
+# Note: Streamlit automatically displays the pages defined in the 'pages/' folder
+# in the sidebar. We don't need any complex routing logic here!
+
+# You can add a brief footer or instructions here
+st.sidebar.header("App Navigation")
